@@ -144,7 +144,7 @@ client.on("message", async message => {
     }
 });
 client.on("message", async message => {
-    if(message.content.startsWith(prefix + "help")) {
+    if(message.content.startsWith(prefix + "helpe")) {
         let help = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
@@ -156,7 +156,7 @@ client.on("message", async message => {
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
 
             __making by : itz_baher__ 
-            رابط سيرفر الدعم الفني : https://discord.gg/4sR37X
+            رابط سيرفر المنشئ : https://discord.gg/4sR37X
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
