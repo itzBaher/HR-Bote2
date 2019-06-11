@@ -157,7 +157,6 @@ client.on("message", async message => {
             making by : itz_baher : ${prefix}server
             رابط سيرفر الدعم الفني : https://discord.gg/4sR37X
             **`);
-            making by : itz_baher 
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
 });
