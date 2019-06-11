@@ -154,6 +154,7 @@ client.on("message", async message => {
             برودكاست للأونلاين فقط : ${prefix}bco
             معلومات عن السيرفر : ${prefix}server
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
+            making by : itz_baher : ${prefix}server
             رابط سيرفر الدعم الفني : https://discord.gg/4sR37X
             **`);
             making by : itz_baher 
