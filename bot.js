@@ -148,7 +148,7 @@ client.on("message", async message => {
         let help = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
-            .setDescription(`**__برودكاست بوت__ 
+            .setDescription(`**●⇢ __برودكاست بوت__ ⇠●
 
             برودكاست لجميع اعضاءالسيرفر : ${prefix}bc           
             برودكاست للأونلاين فقط : ${prefix}bco
